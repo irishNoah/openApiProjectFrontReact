@@ -1,3 +1,4 @@
+// https://github.com/FlowiseAI/FlowiseEmbedReact?tab=readme-ov-file
 import React, { useEffect } from "react";
 
 const ChatbotIntegration = () => {
