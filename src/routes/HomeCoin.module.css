@@ -1,7 +1,7 @@
 .container {
   width: 1500px; /* 너비를 960px로 고정 */
   max-width: 100%; /* 최대 너비를 100%로 설정하여 작은 화면에서도 잘 보이도록 함 */
-  margin: 0 auto; /* 상하 마진 0, 좌우 마진 자동 조정으로 중앙 정렬 */
+  margin: 0 auto; 
   padding: 20px; /* 내부 여백 추가 */
 }
 

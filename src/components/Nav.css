@@ -1,16 +1,17 @@
-.nav {
+/* .nav {
   position: fixed;
-  top: 100px; /* Header 아래에 위치하도록 설정 */
+  top: 70px;
+  height: 50px;
   left: 0;
   width: 100%;
   background-color: #000;
-  z-index: 999; /* Header 아래에 표시되도록 z-index 설정 */
+  z-index: 999;
   padding: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  align-items: center; /* 수직 중앙 정렬 */
-  justify-content: center; /* 수평 중앙 정렬 */
-}
+  align-items: center; 
+  justify-content: center; 
+} */
 
 .navbar {
   width: 1500px; /* 너비를 960px로 고정 */

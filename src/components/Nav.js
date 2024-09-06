@@ -4,18 +4,19 @@ import "./Nav.css";
 
 function Nav() {
   return (
-    <div className="nav">
-      <div className="navbar">
-        <Link className="navbarMenu" to={"/"}>
-          CoinInfo
-        </Link>
-        <Link className="navbarMenu" to={"/posting"}>
-          Posting
-        </Link>
-        <Link className="navbarMenu" to={"/contact"}>
-          Contact
-        </Link>
-      </div>
+    <div className="navbar">
+      <Link className="navbarMenu" to={"/"}>
+        CoinInfoModuleCss
+      </Link>
+      <Link className="navbarMenu" to={"/coinmuigrid"}>
+        CoinMuiGrid
+      </Link>
+      <Link className="navbarMenu" to={"/posting"}>
+        Posting
+      </Link>
+      <Link className="navbarMenu" to={"/contact"}>
+        Contact
+      </Link>
     </div>
   );
 }

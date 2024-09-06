@@ -18,13 +18,10 @@ import CoinMuiGrid from './routes/CoinMuiGrid.js';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop /> 
-      <Header />
-      <Nav />
-      {/* <BasicPagination /> */}
 
+    <Router>
       <Layout>
+
         <Switch>
           <Route path="/hello">
             <h1>Hello</h1>
@@ -55,9 +52,9 @@ function App() {
             <CoinMuiGrid />
           </Route>
         </Switch>
+    
+        <ChatbotIntegration />
       </Layout>
-
-      <ChatbotIntegration />
     </Router>
   );
 }
