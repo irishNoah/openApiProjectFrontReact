@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import styles from "./HomeCoin.module.css";
 import HomeCoinInfo from "../components/HomeCoinInfo";
 import DatePickerValue from "../components/DatePickerValue.js"
-import Header from '../components/Header';
-import Nav from '../components/Nav';
-import ScrollToTop from '../components/ScrollToTop';
 
 function HomeCoin() {
   const [coin, setCoin] = useState(null);

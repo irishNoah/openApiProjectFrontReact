@@ -2,7 +2,7 @@
 // https://mui.com/x/react-data-grid/row-selection/#usage-with-server-side-pagination
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import "../components/Layout.module.css"
+import "./CoinMuiGrid.css"
 
 function CoinMuiGrid() {
   const [rows, setRows] = React.useState([]);
@@ -46,18 +46,21 @@ function CoinMuiGrid() {
   ];
 
   return (
-    <div className="content">
-      <div style={{ height: '600px', width: '100%' }}>
-        <DataGrid
-          rows={rows}
-          columns={columns}
-          loading={loading}
-          pagination
-          pageSizeOptions={[25, 50, 100]}
-          initialState={{
-            pagination: { paginationModel: { pageSize: 25 } },
-          }}
-        />
+    <div className="CoinMuiGrid-container">
+      <div>
+        <h2>Coin Information</h2>
+        <div style={{ height: '600px', width: '100%' }}>
+          <DataGrid
+            rows={rows}
+            columns={columns}
+            loading={loading}
+            pagination
+            pageSizeOptions={[25, 50, 100]}
+            initialState={{
+              pagination: { paginationModel: { pageSize: 25 } },
+            }}
+          />
+        </div>
       </div>
     </div>
   );
