@@ -5,3 +5,9 @@
   padding: 20px; /* 내부 여백 추가 */
 }
 
+.CollectionArea-container {
+  width: 1500px; /* 너비를 960px로 고정 */
+  max-width: 100%; /* 최대 너비를 100%로 설정하여 작은 화면에서도 잘 보이도록 함 */
+  margin: 0 auto; 
+  padding: 20px; /* 내부 여백 추가 */
+}

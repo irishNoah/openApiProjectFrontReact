@@ -12,7 +12,10 @@ function Nav() {
         CoinMuiGrid
       </Link>
       <Link className="navbarMenu" to={"/collection-area"}>
-        CollectionArea
+        수집 지역
+      </Link>
+      <Link className="navbarMenu" to={"/getUltraSrtNcst"}>
+        초단기 실황
       </Link>
       <Link className="navbarMenu" to={"/posting"}>
         Posting
