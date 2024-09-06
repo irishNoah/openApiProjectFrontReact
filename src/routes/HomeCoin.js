@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./HomeCoin.module.css";
 import HomeCoinInfo from "../components/HomeCoinInfo";
+import DatePickerValue from "../components/DatePickerValue.js"
 
 function HomeCoin() {
   const [coin, setCoin] = useState(null);
@@ -32,6 +33,7 @@ function HomeCoin() {
 
   return (
     <div className={styles.container}>
+      <DatePickerValue />
       <div className={styles.coins}>
         {coin.map((data) => (
           <div className={styles.eachCoin}>

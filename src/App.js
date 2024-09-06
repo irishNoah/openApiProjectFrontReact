@@ -30,6 +30,7 @@ function App() {
             <DetailCoin />
           </Route>
           <Route exact path="/">
+            {/* <DatePickerValue /> */}
             <HomeCoin />
           </Route>
           <Route exact path="/">
