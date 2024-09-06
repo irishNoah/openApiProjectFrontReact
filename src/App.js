@@ -5,13 +5,16 @@ import Nav from "./components/Nav";
 import Main from "./routes/HomeCoin";
 import DetailCoin from "./routes/DetailCoin";
 import HomeCoin from "./routes/HomeCoin";
-import Posting from "./components/Posting.js";
-import Contact from "./components/Contact.js";
+import Posting from "./routes/Posting.js";
+import Contact from "./routes/Contact.js";
 import Layout from "./components/Layout";
 import ChatbotIntegration from "./components/ChatBot.js";
 import ScrollToTop from "./components/ScrollToTop.js";
-// import BasicPagination from './components/BasicPagination.js';
 import DatePickerValue from './components/DatePickerValue'; // DatePicker import
+import PaginationCommunityNoSnap from './routes/PaginationCommunityNoSnap.js';
+import CoinDataGrid from './routes/CoinDataGrid.js';
+import CoinMuiGrid from './routes/CoinMuiGrid.js';
+
 
 function App() {
   return (
@@ -44,6 +47,12 @@ function App() {
           </Route>
           <Route path="/datepicker">
             <DatePickerValue /> {/* DatePicker 경로에 추가 */}
+          </Route>
+          <Route path="/muigrid">
+            <PaginationCommunityNoSnap />
+          </Route>
+          <Route path="/coinmuigrid">
+            <CoinMuiGrid />
           </Route>
         </Switch>
       </Layout>
